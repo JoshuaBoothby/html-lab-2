@@ -101,6 +101,7 @@ article a {
 article a:hover {
     color: #0056b3;
 }
+
 /* Footer styles */
 footer {
     background-color: green;
@@ -124,4 +125,21 @@ footer a {
 
 footer a:hover {
     color: #ddd;
+}
+
+/* News item styles */
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.news-item p {
+    flex: 1;
+    margin: 0;
 }
