@@ -17,7 +17,7 @@ nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    background-color: green;
+    background-color: yellowgreen;
 }
 
 nav ul li {
@@ -26,17 +26,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: yellow;
+    display: block;
     border: none;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #0056b3;
+    background-color: goldenrod;
 }
 
 main {
