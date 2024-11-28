@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: goldenrod;
+    background-color: sandybrown;
 }
 
 main {
@@ -76,9 +76,9 @@ table tr:hover {
 
 /* Article styles */
 article {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background-color: sandybrown;
+    border: 1px solid black;
+    border-radius: 20px;
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -87,20 +87,28 @@ article {
 article h3 {
     margin-top: 0;
     color: #333;
+    text-decoration: underline;
 }
 
 article p {
-    color: #666;
+    color: black;
+    font-style: italic;
 }
 
 article a {
-    color: #007bff;
+    color: black;
+    border-radius: 10px;
     text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    box-shadow: 0 5px yellow;
+    background-color: yellowgreen;
     transition: color 0.3s ease;
 }
 
 article a:hover {
-    color: #0056b3;
+    background-color: green;
 }
 
 /* Footer styles */
